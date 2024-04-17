@@ -1,0 +1,30 @@
+{
+"type": "FeatureCollection",
+"name": "PZ_landfill_point4326",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Landfill": "ALBACETE", "Lat": 38.99459, "Long": -1.77685 }, "geometry": { "type": "Point", "coordinates": [ -1.77685, 38.99459 ] } },
+{ "type": "Feature", "properties": { "Landfill": "ALBOX: MANCOMUNIDAD ALMANZORA LEVANTE", "Lat": 37.39064404, "Long": -2.173968667 }, "geometry": { "type": "Point", "coordinates": [ -2.173968667, 37.39064404 ] } },
+{ "type": "Feature", "properties": { "Landfill": "ALCAL� DEL R�O (LA VEGA-SEVILLA)", "Lat": 37.59919, "Long": -5.99945 }, "geometry": { "type": "Point", "coordinates": [ -5.99945, 37.59919 ] } },
+{ "type": "Feature", "properties": { "Landfill": "ALC�ZAR DE SAN JUAN (COMPLEJO): COMSERMANCHA", "Lat": 39.43293227, "Long": -3.225099281 }, "geometry": { "type": "Point", "coordinates": [ -3.225099281, 39.43293227 ] } },
+{ "type": "Feature", "properties": { "Landfill": "ALMER�A: CMA", "Lat": 36.87887944, "Long": -2.286745878 }, "geometry": { "type": "Point", "coordinates": [ -2.286745878, 36.87887944 ] } },
+{ "type": "Feature", "properties": { "Landfill": "CAN MATA (ELS HOSTALETS DE PIEROLA): DC", "Lat": 41.53085371, "Long": 1.806387398 }, "geometry": { "type": "Point", "coordinates": [ 1.806387398, 41.53085371 ] } },
+{ "type": "Feature", "properties": { "Landfill": "CA�ADA HERMOSA: MURCIA", "Lat": 37.98068294, "Long": -1.288078987 }, "geometry": { "type": "Point", "coordinates": [ -1.288078987, 37.98068294 ] } },
+{ "type": "Feature", "properties": { "Landfill": "DAIMIEL", "Lat": 39.06452646, "Long": -3.584597683 }, "geometry": { "type": "Point", "coordinates": [ -3.584597683, 39.06452646 ] } },
+{ "type": "Feature", "properties": { "Landfill": "ECOPARQUE DE TOLEDO: GESMAT", "Lat": 39.861188, "Long": -4.163804 }, "geometry": { "type": "Point", "coordinates": [ -4.163804, 39.861188 ] } },
+{ "type": "Feature", "properties": { "Landfill": "ECOPARQUE GRAN CANARIA NORTE (SALTO DEL NEGRO)", "Lat": 28.05876227, "Long": -15.42357117 }, "geometry": { "type": "Point", "coordinates": [ -15.42357117, 28.05876227 ] } },
+{ "type": "Feature", "properties": { "Landfill": "ECOPARQUE GRAN CANARIA SUR (JUAN GRANDE)", "Lat": 27.8121, "Long": -15.48673 }, "geometry": { "type": "Point", "coordinates": [ -15.48673, 27.8121 ] } },
+{ "type": "Feature", "properties": { "Landfill": "FAMALICAO - VALOR RIB", "Lat": 41.39751818, "Long": -8.58465574 }, "geometry": { "type": "Point", "coordinates": [ -8.58465574, 41.39751818 ] } },
+{ "type": "Feature", "properties": { "Landfill": "FONTCALENT: ALICANTE (AALL)", "Lat": 38.37083125, "Long": -0.592178069 }, "geometry": { "type": "Point", "coordinates": [ -0.592178069, 38.37083125 ] } },
+{ "type": "Feature", "properties": { "Landfill": "GOLMAYO", "Lat": 41.74555655, "Long": -2.503547775 }, "geometry": { "type": "Point", "coordinates": [ -2.503547775, 41.74555655 ] } },
+{ "type": "Feature", "properties": { "Landfill": "LAS LAGUNAS, ZALLA", "Lat": 43.18756033, "Long": -3.13413046 }, "geometry": { "type": "Point", "coordinates": [ -3.13413046, 43.18756033 ] } },
+{ "type": "Feature", "properties": { "Landfill": "MIL�: MENORCA", "Lat": 39.91812369, "Long": 4.260458113 }, "geometry": { "type": "Point", "coordinates": [ 4.260458113, 39.91812369 ] } },
+{ "type": "Feature", "properties": { "Landfill": "OR�S", "Lat": 42.07442678, "Long": 2.209728427 }, "geometry": { "type": "Point", "coordinates": [ 2.209728427, 42.07442678 ] } },
+{ "type": "Feature", "properties": { "Landfill": "PLANALTO BEIRAO - CITERPB (CENTRO INTEGRADO DE TRATAMIENTO Y ELIMINACI�N DE PLANALTO BEIRAO)", "Lat": 40.472643, "Long": -8.156876 }, "geometry": { "type": "Point", "coordinates": [ -8.156876, 40.472643 ] } },
+{ "type": "Feature", "properties": { "Landfill": "PUERTOLLANO: RCDS", "Lat": 38.66513634, "Long": -4.112296991 }, "geometry": { "type": "Point", "coordinates": [ -4.112296991, 38.66513634 ] } },
+{ "type": "Feature", "properties": { "Landfill": "SANTA MAR�A DE PALAUTORDERA TM: DC", "Lat": 41.69658583, "Long": 2.458856742 }, "geometry": { "type": "Point", "coordinates": [ 2.458856742, 41.69658583 ] } },
+{ "type": "Feature", "properties": { "Landfill": "UTE GIREF", "Lat": 38.9416372, "Long": 1.4815011 }, "geometry": { "type": "Point", "coordinates": [ 1.4815011, 38.9416372 ] } },
+{ "type": "Feature", "properties": { "Landfill": "VILLARRASA_UTE TRATAMIENTO HUELVA", "Lat": 37.45122985, "Long": -6.639727806 }, "geometry": { "type": "Point", "coordinates": [ -6.639727806, 37.45122985 ] } },
+{ "type": "Feature", "properties": { "Landfill": "PIEDRA NEGRA", "Lat": 38.49118471, "Long": -0.490177855 }, "geometry": { "type": "Point", "coordinates": [ -0.490177855, 38.49118471 ] } }
+]
+}
