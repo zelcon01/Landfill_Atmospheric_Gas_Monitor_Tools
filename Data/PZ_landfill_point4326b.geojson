@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
-"name": "PZ_landfill_point4326a",
+"name": "PZ_landfill_point4326",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "properties": { "Landfill": "ALBACETE", "Lat": 38.99459, "Long": -1.77685 }, "geometry": { "type": "Point", "coordinates": [ -1.77685, 38.99459 ] } },
@@ -25,7 +25,6 @@
 { "type": "Feature", "properties": { "Landfill": "SANTA MAR�A DE PALAUTORDERA TM: DC", "Lat": 41.69658583, "Long": 2.458856742 }, "geometry": { "type": "Point", "coordinates": [ 2.458856742, 41.69658583 ] } },
 { "type": "Feature", "properties": { "Landfill": "UTE GIREF", "Lat": 38.9416372, "Long": 1.4815011 }, "geometry": { "type": "Point", "coordinates": [ 1.4815011, 38.9416372 ] } },
 { "type": "Feature", "properties": { "Landfill": "VILLARRASA_UTE TRATAMIENTO HUELVA", "Lat": 37.45122985, "Long": -6.639727806 }, "geometry": { "type": "Point", "coordinates": [ -6.639727806, 37.45122985 ] } },
-{ "type": "Feature", "properties": { "Landfill": "PIEDRA NEGRA", "Lat": 38.49118471, "Long": -0.490177855 }, "geometry": { "type": "Point", "coordinates": [ -0.490177855, 38.49118471 ] } },
-{ "type": "Feature", "properties": { "Landfill": "TEST_LANDFILL Planta de biometanizaci�n y compostaje de Pinto (NOT-PREZERO)", "Lat": 40.2608474, "Long": -3.640743926 }, "geometry": { "type": "Point", "coordinates": [ -3.640743926, 40.2608474 ] } }
+{ "type": "Feature", "properties": { "Landfill": "PIEDRA NEGRA", "Lat": 38.49118471, "Long": -0.490177855 }, "geometry": { "type": "Point", "coordinates": [ -0.490177855, 38.49118471 ] } }
 ]
 }
