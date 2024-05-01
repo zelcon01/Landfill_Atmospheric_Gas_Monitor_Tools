@@ -1,0 +1,21 @@
+name: egm722
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Essential Python libraries
+  - python
+
+  # Geographic libraries
+  - folium #Generates interactive maps with Leaflet.js.
+  - pandas #Handles data manipulation and analysis.
+  - matplotlib #Creates map visualizations.
+  - openeo #Connects to the OpenEO API for Earth observation data processing.
+  - rasterio #Reads and writes raster datasets.
+  - numpy #Performs numerical computations on arrays and matrices.
+  - requests # used fetch data from web services or APIs.
+  - scikit-learn #  tools for various tasks like regression, classification.
+  - geopandas # #Handles geospatial data structures and operations.
+
+  # Interactive tools
+  - jupyterlab #Interactive computing environment for Python.
