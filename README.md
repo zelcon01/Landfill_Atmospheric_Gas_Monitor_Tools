@@ -24,20 +24,20 @@ In the Anaconda Navigator side bar, click the ‘Environments’ tab. You will s
 
 ![Figure 1](https://github.com/zelcon01/egm722/raw/main/Project/readme_img/fig.1.jpg)
 
-<p align="center">_Figure 1: Environments tab of Anaconda Navigator with environments tab and import button highlighted in red._</p>
+<p align="center"><em>Figure 1: Environments tab of Anaconda Navigator with environments tab and import button highlighted in red.</em></p>
 
 Next click on the imports tab (fig.1) and select the file ‘environment.yml’ contained in the .zip file of the tool’s download, choosing an appropriate name for the environment (fig.2). 
 
 ![Figure 2](https://github.com/zelcon01/egm722/raw/main/Project/readme_img/fig.2.jpg)
 
-<p align="center">_Figure 2: The import config box (left) and the contents of ‘environment.yml’ (right)._</p>
+<p align="center"><em>Figure 2: The import config box (left) and the contents of ‘environment.yml’ (right).</em></p>
 
 Click Import. Depending on the connection speed of your network, the process of installing all the packages may take several minutes. Once finished you will be returned to the environments tab (fig.1) 
 Next click on the ‘Home’ tab in Anaconda Navigator’s sidebar (fig.3).
 
 ![Figure 3](https://github.com/zelcon01/egm722/raw/main/Project/readme_img/fig.3.jpg)
 
-<p align="center">_Figure 3: Anaconda Navigator with home tab and environment switching dropdown in red._</p>
+<p align="center"><em>Figure 3: Anaconda Navigator with home tab and environment switching dropdown in red.</em></p>
 
 ## Setting up Jupyter Lab
 
@@ -45,7 +45,7 @@ A configuration file (‘.config’) needs to be created  to change the settings
 
 ![Figure 4](https://github.com/zelcon01/egm722/raw/main/Project/readme_img/fig.4.jpg)
 
-<p align="center">_Figure 4: Highlighted locations of selected environment and CMD.exe Prompt_</p>
+<p align="center"><em>Figure 4: Highlighted locations of selected environment and CMD.exe Prompt</em></p>
 
 In the command prompt, enter the command:
 
@@ -65,26 +65,26 @@ This will show something like figure 5 although your file paths will be unique t
 
 ![Figure 5](https://github.com/zelcon01/egm722/raw/main/Project/readme_img/fig.5.jpg)
 
-<p align="center">_Figure 5: results of ‘jupyter –paths’ command showing path used by environment highlighted in red._</p>
+<p align="center"><em>Figure 5: results of ‘jupyter –paths’ command showing path used by environment highlighted in red.</em></p>
 
 The ‘jupyter_lab_config.py’ file mentioned earlier needs to be copy pasted into that folder. 
 Once ‘jupyter_lab_config.py’ file has been moved, open it in Notepad++, Visual Studio Code or if you don’t have those, Notepad. Using the shortcut ‘CTRL + F’ type in the following line: ‘c.ServerApp.root_dir’ (without quotes) and you should find the section highlighted in figure 6. 
 
 ![Figure 6](https://github.com/zelcon01/egm722/raw/main/Project/readme_img/fig.6.jpg)
 
-<p align="center">_Figure 6: location of 'c.ServerApp.root_dir' in jupyter_lab_config.py_</p>
+<p align="center"><em>Figure 6: location of 'c.ServerApp.root_dir' in jupyter_lab_config.py</em></p>
 
 Remove the ‘#’ and space from the start and add the path used by your environment between the quote marks, adding a ‘r’ beforehand (fig.7). 
 
 ![Figure 7](https://github.com/zelcon01/egm722/raw/main/Project/readme_img/fig.7.jpg)
 
-<p align="center">_Figure 7: path to data directory added to jupyter_lab_config.py_</p>
+<p align="center"><em>Figure 7: path to data directory added to jupyter_lab_config.py</em></p>
 
 Save and close this file and return to the Anaconda Navigator ‘Home’ tab. Launch Jupyter Lab and if you have followed the steps correctly, you should see that your data directory is automatically displayed (figure 8).
 
 ![Figure 8](https://github.com/zelcon01/egm722/raw/main/Project/readme_img/fig.8.jpg)
 
-<p align="center">_Figure 8: Jupyter Lab showing by default the data directory_</p>
+<p align="center"><em>Figure 8: Jupyter Lab showing by default the data directory</em></p>
 
 ## OpenEO setup using Anaconda Navigator
 
@@ -93,13 +93,13 @@ First search in the Anaconda Navigator environments tab for ‘openeo’. Make s
 
 ![Figure 9](https://github.com/zelcon01/egm722/raw/main/Project/readme_img/fig.9.jpg)
 
-<p align="center">_Figure 9: installing OpenEO from Anaconda Navigator._</p>
+<p align="center"><em>Figure 9: installing OpenEO from Anaconda Navigator.</em></p>
 
 Next you will be presented with the following screen (fig.10). One this has finished processing the request. Simply click ‘apply’ to begin the installation. 
 
 ![Figure 10](https://github.com/zelcon01/egm722/raw/main/Project/readme_img/fig.10.jpg)
 
-<p align="center">_Figure 10: Anaconda Navigator package installer loading screen._</p>
+<p align="center"><em>Figure 10: Anaconda Navigator package installer loading screen.</em></p>
 
 
 
@@ -109,7 +109,7 @@ If Anaconda Navigator cannot find OpenEO you can use PyPi, the official third-pa
 
 ![Figure 11](https://github.com/zelcon01/egm722/raw/main/Project/readme_img/fig.11.jpg)
 
-<p align="center">_Figure 11: Installing pip via Anaconda Navigator_</p>
+<p align="center"><em>Figure 11: Installing pip via Anaconda Navigator</em></p>
 
 Open an Anaconda Navigator CMD.exe prompt and type the following command:
 
@@ -125,19 +125,19 @@ Accessing and analysing OpenEO data requires an authentication. To do this, you 
 
 ![Figure 12](https://github.com/zelcon01/egm722/raw/main/Project/readme_img/fig.12.jpg)
 
-<p align="center">_Figure 12: Copernicus Dataspace landing page with login button highlighted in red._</p>
+<p align="center"><em>Figure 12: Copernicus Dataspace landing page with login button highlighted in red.</em></p>
 
 Next click the green ‘register’ button (figure 13):
 
 ![Figure 14](https://github.com/zelcon01/egm722/raw/main/Project/readme_img/fig.14.jpg)
 
-<p align="center">_Figure 13: Copernicus Dataspace sign in page._</p>
+<p align="center"><em>Figure 13: Copernicus Dataspace sign in page.</em></p>
 
 On the following page, fill out the application form and then at the bottom click the green ‘register’ button (fig.14). 
 
 ![Figure 14](https://github.com/zelcon01/egm722/raw/main/Project/readme_img/fig.14.jpg)
 
-<p align="center">_Figure 14: End of Copernicus registration page with register button highlighted in red._</p>
+<p align="center"><em>Figure 14: End of Copernicus registration page with register button highlighted in red.</em></p>
 
 Once registered, you will receive an email asking to verify your address. You can then log-in with your email and chosen password. 
 For any registration problems, email: help-login@dataspace.copernicus.eu
