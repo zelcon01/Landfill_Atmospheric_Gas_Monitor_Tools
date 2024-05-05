@@ -56,10 +56,10 @@ This will create a new folder in your user directory called ‘.jupyter’ conta
 Jupyter lab will by default open in your user directory. Unfortunately due to security restrictions it is not possible to navigate to the parent directory of the launch location. So if Jupyter launches in ‘C:\Users\RockyBalboa, it is not possible to move to ‘C:\Users’ or, ‘C:\EGM722’. If the directory you are keeping your data in is outside your user directory, you will need to change the default opening folder to your chosen data directory. 
 
 Your chosen data directory is also where you should store the following files and folder:
-•	Sentinel_5P_Atmospheric_Gas_Time_Series.ipynb
-•	Sentinel_5P_Atmospheric_Gas_Map.ipynb
-•	Sentinel_2_CH4_Multi-Band-Multi-Pass.ipynb
-•	The folder “Data”
+* Sentinel_5P_Atmospheric_Gas_Time_Series.ipynb
+* Sentinel_5P_Atmospheric_Gas_Map.ipynb
+* Sentinel_2_CH4_Multi-Band-Multi-Pass.ipynb
+* The folder “Data”
 
 If your data directory is in your user directory, you should be able to click and navigate there using the interface of Jupyter Lab. If that is not the case, you will need to do the following: 
 Open an Anaconda Navigator CMD.exe prompt and type the following command: 
