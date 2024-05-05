@@ -149,6 +149,27 @@ On the following page, fill out the application form and then at the bottom clic
 Once registered, you will receive an email asking to verify your address. You can then log-in with your email and chosen password. 
 For any registration problems, email: help-login@dataspace.copernicus.eu
 
+## Running the tools in Jupyter Notebook
+
+Now that (almost) everything has been setup you can launch Jupyter Lab in the Anaconda Navigator (figure 15). Remember as always that your project environment (here ‘EGM722’) should be selected and not ‘base (root)’.
+
+![Figure 15](https://github.com/zelcon01/egm722/raw/main/Project/readme_img/fig.15.jpg)
+
+<p align="center"><em>Location of Jupyter Lab in Anaconda Navigator highlighted in red.</em></p>
+
+Once Jupyter lab opens, you should see the three tools on the left (figure 16).
+
+![Figure 16](https://github.com/zelcon01/egm722/raw/main/Project/readme_img/fig.16.jpg)
+
+<p align="center"><em>Figure 16: Location of tool scripts in Jupyter lab highlighted in red.</em></p>
+
+Click on one of the tools to open it. You can then follow the instructions, running the code by clicking the play button (figure 17).
+
+![Figure 17](https://github.com/zelcon01/egm722/raw/main/Project/readme_img/fig.17.jpg)
+
+<p align="center"><em>Location of the ‘play’ button which runs each of the code segments of the workbooks.</em></p>
+
+
 ## Authentication with OpenEO
 
 The very first time one of the tools are run, the following section of code…
