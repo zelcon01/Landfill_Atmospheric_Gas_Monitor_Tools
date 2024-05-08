@@ -1,0 +1,9 @@
+
+Sentinel-2_truecolour.GTiff
+Sentinel-2_no_emissionMBMP.GTiff.aux.xml
+Sentinel-2_no_emissionMBMP.GTiff
+Sentinel-2_active_emissionMBMP.GTiff.aux.xml
+Sentinel-2_active_emissionMBMP.GTiff
+/Gas_Timeseries_results
+.ipynb_checkpoints/Sentinel_5P_Atmospheric_Gas_Time_Series-checkpoint.ipynb
+.ipynb_checkpoints/Sentinel 2 CH4 Multi-Band-Multi-Pass-checkpoint.ipynb
