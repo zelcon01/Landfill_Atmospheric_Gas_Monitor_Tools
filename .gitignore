@@ -7,3 +7,6 @@ Sentinel-2_active_emissionMBMP.GTiff
 /Gas_Timeseries_results
 .ipynb_checkpoints/Sentinel_5P_Atmospheric_Gas_Time_Series-checkpoint.ipynb
 .ipynb_checkpoints/Sentinel 2 CH4 Multi-Band-Multi-Pass-checkpoint.ipynb
+Sentinel-5P_Spain.GTiff
+Sentinel-5P_Spain3857.GTiff
+.ipynb_checkpoints/Sentinel_5P_Atmospheric_Gas_Map-checkpoint.ipynb
