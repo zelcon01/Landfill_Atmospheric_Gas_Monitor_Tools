@@ -26,6 +26,8 @@
 { "type": "Feature", "properties": { "Landfill": "UTE GIREF", "Lat": 38.9416372, "Long": 1.4815011 }, "geometry": { "type": "Point", "coordinates": [ 1.4815011, 38.9416372 ] } },
 { "type": "Feature", "properties": { "Landfill": "VILLARRASA_UTE TRATAMIENTO HUELVA", "Lat": 37.45122985, "Long": -6.639727806 }, "geometry": { "type": "Point", "coordinates": [ -6.639727806, 37.45122985 ] } },
 { "type": "Feature", "properties": { "Landfill": "PIEDRA NEGRA", "Lat": 38.49118471, "Long": -0.490177855 }, "geometry": { "type": "Point", "coordinates": [ -0.490177855, 38.49118471 ] } },
-{ "type": "Feature", "properties": { "Landfill": "TEST_LANDFILL Planta de biometanizaci�n y compostaje de Pinto (NOT-PREZERO)", "Lat": 40.2608474, "Long": -3.640743926 }, "geometry": { "type": "Point", "coordinates": [ -3.640743926, 40.2608474 ] } }
+{ "type": "Feature", "properties": { "Landfill": "Algeria Plume", "Lat": 31.6584646, "Long": 5.9053647 }, "geometry": { "type": "Point", "coordinates": [ 5.905367118075594, 31.658480317491367 ] } },
+{ "type": "Feature", "properties": { "Landfill": "PINTO LANDFILL (NOT PREZERO)", "Lat": 40.260673916790971, "Long": -3.6408612249728498 }, "geometry": { "type": "Point", "coordinates": [ -3.632832093739266, 40.264571825593741 ] } },
+{ "type": "Feature", "properties": { "Landfill": "VALDEMINGOMEZ LANDFILL (NOT PREZERO)", "Lat": 40.328208830928887, "Long": -3.5884853725239574 }, "geometry": { "type": "Point", "coordinates": [ -3.588502062487392, 40.325230846127511 ] } }
 ]
 }
