@@ -1,5 +1,4 @@
 
-Sentinel-2_truecolour.GTiff
 Sentinel-2_no_emissionMBMP.GTiff.aux.xml
 Sentinel-2_no_emissionMBMP.GTiff
 Sentinel-2_active_emissionMBMP.GTiff.aux.xml
@@ -14,3 +13,7 @@ Sentinel-5P_Spain3857.GTiff
 .ipynb_checkpoints/Sentinel 2 CH4 Multi-Band-Single-Pass-checkpoint.ipynb
 S2HRM\[emission_date_here\].jpg
 Sentinel-2_active_emissionMBSP.GTiff
+Sentinel-2_truecolourMBSP.GTiff
+S2HRM\[emission_date_here\].jpg
+S2MBSP\[emission_date_here\].jpg
+S2MBMP\[emission_date_here\].jpg
