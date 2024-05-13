@@ -10,7 +10,8 @@ Welcome to the setup guide for the Remote Landfill Gas Monitoring Tools. This gu
 4. [OpenEO setup using Anaconda Navigator](#openeo-setup-using-anaconda-navigator)
 5. [OpenEO setup using PyPi](#openeo-setup-using-pypi)
 6. [Registering with Copernicus Data Space Ecosystem](#registering-with-copernicus-data-space-ecosystem)
-7. [Authentication with OpenEO](#authentication-with-openeo)
+7. [Running the tools in Jupyter Notebook](#running-the-tools-in-jupyter-notebook)
+8. [Authentication with OpenEO](#authentication-with-openeo)
 
 ---
 
@@ -192,3 +193,4 @@ Copy this into your web browser and login using the Copernicus Data Space. Once 
 > ```
 
 In future you may be prompted with a new URL to create a new authentication token, whereby you should repeat the steps of this section.
+
