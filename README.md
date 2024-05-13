@@ -15,11 +15,11 @@ Welcome to the setup guide for the Remote Landfill Gas Monitoring Tools. This gu
 
 ---
 
-## Anaconda Navigator
+## 1. Anaconda Navigator
 
 Anaconda Navigator, containing Python and additional tools, includes ‘Conda’, a package manager for creating shareable environments with necessary packages. This includes Jupyter Lab for running Python code. This will be installed first. To download Anaconda, navigate to https://docs.anaconda.com/anaconda/install/ and follow the instructions of your associated operating system. 
 
-## Creating a Conda Environment
+## 2. Creating a Conda Environment
 
 In the Anaconda Navigator side bar, click the ‘Environments’ tab. You will see the installed packages (fig.1). 
 
@@ -40,7 +40,7 @@ Next click on the ‘Home’ tab in Anaconda Navigator’s sidebar (fig.3).
 
 <p align="center"><em>Figure 3: Anaconda Navigator with home tab and environment switching dropdown in red.</em></p>
 
-## Setting up Jupyter Lab
+## 3. Setting up Jupyter Lab
 
 A configuration file (‘.config’) needs to be created  to change the settings used by Jupyter Lab by default. Launch the CMD.exe prompt (fig.4)
 
@@ -94,7 +94,7 @@ Save and close this file and return to the Anaconda Navigator ‘Home’ tab. La
 
 <p align="center"><em>Figure 8: Jupyter Lab showing by default the data directory</em></p>
 
-## OpenEO setup using Anaconda Navigator
+## 4. OpenEO setup using Anaconda Navigator
 
 OpenEO is an open-source API that allows access to the earth observation satellite missions run by the Copernicus program. These include the satellites used by this tool. 
 First search in the Anaconda Navigator environments tab for ‘openeo’. Make sure that ‘Not installed’ is selected (fig.9). If the package appears here, click its tick box and select apply. If you can’t see it here, please go to section 2.5.
@@ -111,7 +111,7 @@ Next you will be presented with the following screen (fig.10). One this has fini
 
 
 
-## OpenEO setup using PyPi
+## 5. OpenEO setup using PyPi
 
 If Anaconda Navigator cannot find OpenEO you can use PyPi, the official third-party software library for Python. Search for ‘pip’, selecting the appropriate tick-box and then clicking apply (fig.11), then clicking apply once the install packages prompt has finished loading (fig.10). 
 
@@ -127,7 +127,7 @@ Open an Anaconda Navigator CMD.exe prompt and type the following command:
 
 Once the resultant process has completed, you can close the CMD.exe prompt window. 
 
-## Registering with Copernicus Data Space Ecosystem
+## 6. Registering with Copernicus Data Space Ecosystem
 
 Accessing and analysing OpenEO data requires an authentication. To do this, you need to complete a Copernicus Data Space Ecosystem Registration. Go to https://dataspace.copernicus.eu/ and click the green login button (fig.12)
 
@@ -150,7 +150,7 @@ On the following page, fill out the application form and then at the bottom clic
 Once registered, you will receive an email asking to verify your address. You can then log-in with your email and chosen password. 
 For any registration problems, email: help-login@dataspace.copernicus.eu
 
-## Running the tools in Jupyter Notebook
+## 7. Running the tools in Jupyter Notebook
 
 Now that (almost) everything has been setup you can launch Jupyter Lab in the Anaconda Navigator (figure 15). Remember as always that your project environment (here ‘EGM722’) should be selected and not ‘base (root)’.
 
@@ -171,7 +171,7 @@ Click on one of the tools to open it. You can then follow the instructions, runn
 <p align="center"><em>Location of the ‘play’ button which runs each of the code segments of the workbooks.</em></p>
 
 
-## Authentication with OpenEO
+## 8. Authentication with OpenEO
 
 The very first time one of the tools are run, the following section of code…
 
@@ -193,4 +193,6 @@ Copy this into your web browser and login using the Copernicus Data Space. Once 
 > ```
 
 In future you may be prompted with a new URL to create a new authentication token, whereby you should repeat the steps of this section.
+
+
 
